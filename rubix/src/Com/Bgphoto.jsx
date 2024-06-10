@@ -6,10 +6,9 @@ const Bgphoto = () => {
   return (
     // eslint-disable-next-line react/no-unknown-property
     <div>
-
     <div className="flex mt-16">
-      <div className=" bg-fixed bg-right-bottom  h-[600px] w-full bg-no-repeat bg-cover  bg-[url('/Public/image/bg.jpeg')]">
-      <div className="absolute h-[300px] w-[1000px] right-80 mt-40 bg-white">
+      <div className=" bg-fixed bg-right-bottom  h-[500px] w-full bg-no-repeat bg-cover  bg-[url('/Public/image/bg.jpeg')]">
+      <div className="absolute h-[300px] w-[1000px] ml-[250px] mt-28 bg-white opacity-70">
           <h1 className="mt-24 text-center text-2xl">Subcribe To Our Newsletter</h1>
           <p className="mt-2 text-center text-gray-700">Sign up for the weekly newsletter and build better ecommerce stores.</p>
           <div className="mt-5 w-[600px] flex ml-[200px]">
