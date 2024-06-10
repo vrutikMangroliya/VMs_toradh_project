@@ -221,3 +221,9 @@
     border-color: rgba(35, 33, 33, 0.267);
 }
 
+
+.loop-scroll1{
+    transform-origin:right;
+    animation:grow 5s forwards infinite;
+    transform: rotateX('angle 0');
+}
